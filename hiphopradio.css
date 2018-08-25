@@ -7,9 +7,9 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
 }
 /*Animations for individual selections of the radio tracks*/
 @keyframes playlistpulse{
-	0%{background-color: #ff7f7f}
+	0%{background-color: #005C97}
 	50%{background-color: #e30de3}
-	100%{background-color: #ff7f7f}
+	100%{background-color: #005C97}
 }
 .track1{
     animation-name: playlistpulse;
