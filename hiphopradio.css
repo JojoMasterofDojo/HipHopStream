@@ -1,3 +1,7 @@
+a{
+	color: #e30de3;
+}
+
 html{
 	color: white;
 	background: #005C97;  /* fallback for old browsers */
@@ -132,6 +136,31 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
     animation-delay: 18s;
 }
 /*End of animation section*/
+
+/*Schedule CSS*/
+table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: 'Raleway', sans-serif;
+} 
+.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+		color: #e30de3;
+		background-color: black;
+}
+.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+}
+.tablemovement{
+	padding-left: 0%;
+}
+#tabletitle{
+	font-family: 'Raleway', sans-serif
+}
 .player{
 	display: flex;
 	flex-direction: row;
@@ -169,4 +198,17 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
 	font-size: 20px;
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
+}
+#yes{
+	background-color: green;
+	color: white;
+}
+#no{
+	background-color: red;
+	color: white;
+}
+#chatwing-embedded-a016c4e0-a8d4-11e8-8c4e-9b1b51e68fbe{
+	top: 37.5%;
+	left: 75%;
+	position: absolute;
 }
