@@ -15,125 +15,14 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
 	50%{background-color: #e30de3}
 	100%{background-color: #005C97}
 }
-.track1{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
+.titletext{
+	background-color: black;
+	text-align: center;
 }
-.track2{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 5s;
-}
-.track3{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 7s;
-}
-.track4{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 9s;
-}
-.track5{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 11s;
-}
-.track6{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 13s;
-}
-.track7{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track8{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 7s;
-}
-.track9{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track10{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track11{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track12{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 11s;
-}
-.track13{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 12s;
-}
-.track14{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 13s;
-}
-.track15{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 14s;
-}
-.track16{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-.track17{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-.track18{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 17s;
-}
-.track19{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-.track20{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
+.title{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
 }
 /*End of animation section*/
 
@@ -142,13 +31,12 @@ table.tableizer-table {
 		font-size: 14px;
 		border: 1px solid #CCC; 
 		font-family: 'Raleway', sans-serif;
+		width: 100%;
 } 
 .tableizer-table td {
 		padding: 4px;
 		margin: 3px;
 		border: 1px solid #CCC;
-		color: #e30de3;
-		background-color: black;
 }
 .tableizer-table th {
 		background-color: #104E8B; 
@@ -166,34 +54,6 @@ table.tableizer-table {
 	flex-direction: row;
 	justify-content: center;
 }
-.title{
-	text-align: center;
-}
-.titletext{
-	background-color: black;
-}
-.titleplayer{
-	padding-left: -50%;
-	font-family: 'Raleway', sans-serif;
-}
-.tracklist{
-	font-family: 'Raleway', sans-serif;
-	position: absolute;
-	right: 0%;
-	top: 0%;
-	height: 100%;
-	width: 20%;
-	border-left: 2.5px solid white;	
-	overflow: auto;
-}
-.tracks{
-	border-bottom: 1.5px solid white;
-	padding: 5px;
-}
-.trackstitle{
-	text-align: center; 
-	background-color: black;
-}
 .info{
 	font-size: 20px;
 	text-align: left;
@@ -208,7 +68,275 @@ table.tableizer-table {
 	color: white;
 }
 #chatwing-embedded-a016c4e0-a8d4-11e8-8c4e-9b1b51e68fbe{
-	top: 37.5%;
-	left: 75%;
-	position: absolute;
+}
+/*Start of Playlist Animation*/
+.tr1{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.tr2{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;	
+}
+.tr3{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;	
+}
+.tr4{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 9s;	
+}
+.tr5{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 11s;	
+}
+.tr6{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 13s;	
+}
+.tr7{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;	
+}
+.tr8{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 17s;	
+}
+.tr9{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 19s;
+}
+.tr10{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 21s;
+}
+.tr11{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 23s;	
+}
+.tr12{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 25s;
+}
+.tr13{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 27s;
+}
+.tr14{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 29s;
+}
+.tr15{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 31s;
+}
+.tr16{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 33s;
+}
+.tr17{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 35s;
+}
+.tr18{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 37s;
+}
+.tr19{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 39s;
+}
+.tr20{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 41s;
+}
+.tr21{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 43s;
+}
+.tr22{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 45s;
+}
+.tr23{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 47s;
+}
+.tr24{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 49s;
+}
+.tr25{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 51s;
+}
+.tr26{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 53s;
+}
+.tr27{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 55s;
+}
+.tr28{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 57s;
+}
+.tr29{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 59s;
+}
+.tr30{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 61s;
+}
+.tr31{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 63s;
+}
+.tr32{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 65s;
+}
+.tr33{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 67s;
+}
+.tr34{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 69s;
+}
+.tr35{
+	animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 71s;
+}
+.tr36{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 73s;
+}
+.tr37{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 75s;
+}
+.tr38{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 77s;
+}
+.tr39{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 79s;
+}
+.tr40{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 81s;
+}
+.tr41{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 83s;
+}
+.tr42{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 85s;
+}
+.tr43{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 87s;
+}
+.tr44{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 89s;
+}
+.tr45{
+    animation-name: playlistpulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 91s;
 }
