@@ -1,222 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<style>
-	a{
-	color: #e30de3;
-}
-
-html{
-	color: white;
-	background: #005C97;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-/*Animations for individual selections of the radio tracks*/
-@keyframes playlistpulse{
-	0%{background-color: #005C97}
-	50%{background-color: #e30de3}
-	100%{background-color: #005C97}
-}
-.track1{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-}
-.track2{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 5s;
-}
-.track3{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 7s;
-}
-.track4{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 9s;
-}
-.track5{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 11s;
-}
-.track6{
-    animation-name: playlistpulse;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-delay: 13s;
-}
-.track7{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track8{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 7s;
-}
-.track9{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track10{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track11{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 8s;
-}
-.track12{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 11s;
-}
-.track13{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 12s;
-}
-.track14{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 13s;
-}
-.track15{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 14s;
-}
-.track16{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-.track17{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-.track18{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 17s;
-}
-.track19{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-.track20{
-    animation-name: playlistpulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 18s;
-}
-/*End of animation section*/
-
-/*Schedule CSS*/
-table.tableizer-table {
-		font-size: 14px;
-		border: 1px solid #CCC; 
-		font-family: 'Raleway', sans-serif;
-} 
-.tableizer-table td {
-		padding: 4px;
-		margin: 3px;
-		border: 1px solid #CCC;
-		color: #e30de3;
-		background-color: black;
-}
-.tableizer-table th {
-		background-color: #104E8B; 
-		color: #FFF;
-		font-weight: bold;
-}
-.tablemovement{
-	padding-left: 0%;
-}
-#tabletitle{
-	font-family: 'Raleway', sans-serif
-}
-.player{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.title{
-	text-align: center;
-}
-.titletext{
-	background-color: black;
-}
-.titleplayer{
-	padding-left: -50%;
-	font-family: 'Raleway', sans-serif;
-}
-.tracklist{
-	font-family: 'Raleway', sans-serif;
-	position: absolute;
-	right: 0%;
-	top: 0%;
-	height: 100%;
-	width: 20%;
-	border-left: 2.5px solid white;	
-	overflow: auto;
-}
-.tracks{
-	border-bottom: 1.5px solid white;
-	padding: 5px;
-}
-.trackstitle{
-	text-align: center; 
-	background-color: black;
-}
-.info{
-	font-size: 20px;
-	text-align: left;
-	font-family: 'Raleway', sans-serif;
-}
-#yes{
-	background-color: green;
-	color: white;
-}
-#no{
-	background-color: red;
-	color: white;
-}
-#chatwing-embedded-a016c4e0-a8d4-11e8-8c4e-9b1b51e68fbe{
-	top: 37.5%;
-	left: 75%;
-	position: absolute;
-}
-</style>
 	<link rel="stylesheet" type="text/css" href="hiphopradio.css">
 	<link href="https://fonts.googleapis.com/css?family=Kosugi|Raleway|Sawarabi+Mincho" rel="stylesheet">
 	<meta charset="UTF-8">
@@ -236,65 +20,66 @@ table.tableizer-table {
 			<i style="color: #e30de3" class="titletext"> Samuel Quansah</i></p>
 		</div>
 		<div class="player">
-			<audio controls id="audio">
-				<source src="https://file.io/RAUW3w" type="audio/mp3">
+			<audio controls class="player" id="audio">
+				<source src="http://localhost:8000/stream" type="audio/mp3">
 			</audio>
 		</div>
 	</div>
 	<h1 style="text-align: left;" id="tabletitle"> Playlist of the Day - Madvilliany!(MF Doom, Quasimoto) </h1>
 	<div class="tablemovement">
 		<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th># Number</th><th>Song</th><th>Album</th><th>Duration</th><th>Radio Edit?</th><th>Artists</th></tr></thead><tbody>
- <tr><td>1</td><td>Rumpelstilskin Brown</td><td></td><td>5 min, 5 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
- <tr><td>2</td><td>That's That</td><td>Born Like This</td><td>2 min, 8 sec</td><td id="yes">Yes</td><td>Quasimoto</td></tr>
- <tr><td>3</td><td>Catchin the Vibe</td><td></td><td>3 min, 43 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>4</td><td>Great Day</td><td>Madvilliany</td><td>2 min, 17 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
- <tr><td>5</td><td>Planned Attack</td><td></td><td>2 min, 50 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>6</td><td>Somersault (MF DOOM remix)</td><td></td><td>3 min, 36 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>7</td><td>Raid</td><td>Madvilliany</td><td>2 min, 31 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>8</td><td>Bad Character</td><td>The Unseen</td><td>1 min, 56 sec</td><td id="yes">Yes</td><td>Quasimoto</td></tr>
- <tr><td>9</td><td>All Caps</td><td>Madvilliany</td><td>2 min, 56 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
- <tr><td>10</td><td>It Aint Hard to Tell (danger mouse remix)</td><td>Illmatic</td><td>3 min, 14 sec</td><td id="no">No</td><td>Nas</td></tr>
- <tr><td>11</td><td>Come on Feet</td><td>The Unseen</td><td>2 min, 50 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>12</td><td>Sofa King</td><td>The Mouse and the Mask</td><td>2 min, 50 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>13</td><td>Closer</td><td>The Further Adventures of Lord Quas</td><td>2 min, 11 sec</td><td id="yes">Yes</td><td>Quasimoto</td></tr>
- <tr><td>14</td><td>93 Til Infinity</td><td>93 Til Infinity</td><td>3 min, 35 sec</td><td id="no">No</td><td>93 Til Infinity</td></tr>
- <tr><td>15</td><td>The Choice is Yours</td><td>A Wolf in Sheep's Clothing</td><td>3 min, 52 sec</td><td id="no">No</td><td>Native Tounges</td></tr>
- <tr><td>16</td><td>Sniper Elite</td><td>Sniperlite</td><td>1 min, 59 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>17</td><td>One Beer</td><td>Mm... food</td><td>2 min, 45 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>18</td><td>Rappcats</td><td>The Further Adventures of Lord Quas</td><td>2 min, 2 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
- <tr><td>19</td><td>Monkey Suite</td><td>Chrome Children</td><td>2 min, 38 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
- <tr><td>20</td><td>Microphone Mathematics</td><td>The Unseen</td><td>3 min, 17 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
- <tr><td>21</td><td>8 Million Stories</td><td>Midnight Marauders</td><td>4 min, 22 sec</td><td id="yes">Yes</td><td>Native Tounges</td></tr>
- <tr><td>22</td><td>Discipline 99 pt 1</td><td>The Unseen</td><td>3 min, 31 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
- <tr><td>23</td><td>Hoe Cakes</td><td>Mm... food</td><td>3 min, 36 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
- <tr><td>24</td><td>Fancy Clown</td><td>Madvilliany</td><td>1 min, 56 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
- <tr><td>25</td><td>Strange Ways</td><td>Madvilliany</td><td>1 min, 55 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>26</td><td>Kookies</td><td>Mm... food</td><td>4 min, 2 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
- <tr><td>27</td><td>Sorcerers</td><td>Unexpected Guests</td><td>3 min, 4 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
- <tr><td>28</td><td>Figaro</td><td>Madvilliany</td><td>2 min, 27 sec</td><td id="no">No</td><td>MF Doom</td></tr>
- <tr><td>29</td><td>Crew</td><td>Beats, Rhymes and Life</td><td>2 min</td><td id="yes">Yes</td><td>Native Tounges</td></tr>
- <tr><td>30</td><td>Phony Rappers</td><td>Beats, Rhymes and Life</td><td>3 min, 36 sec</td><td id="yes">Yes</td><td>Native Tounges</td></tr>
- <tr><td>31</td><td>Party & Bullshit</td><td>The Lost Tapes EP</td><td>3 min, 41 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
- <tr><td>32</td><td>Ten Crack Commandments</td><td>Life After Death</td><td>3 min, 26 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
- <tr><td>33</td><td>Capital Punishment</td><td>Capital Punishment</td><td>4 min, 22 sec</td><td id="yes">Yes</td><td>Big Pun</td></tr>
- <tr><td>34</td><td>My Turn</td><td>Yeeeah Baby</td><td>3 min, 49 sec</td><td id="no">No</td><td>Big Pun</td></tr>
- <tr><td>35</td><td>Twinz (Deep Cover '98)</td><td>Capital Punishment</td><td>3 min, 49 sec</td><td id="yes">Yes</td><td>Big Pun</td></tr>
- <tr><td>36</td><td>Gimme the Loot (Original)</td><td>Ready to Die</td><td>5 min, 8 sec</td><td id="yes">Yes</td><td>Big Pun</td></tr>
- <tr><td>37</td><td>Liquid Swords</td><td>Liquid Swords</td><td>4 min, 31 sec</td><td id="no">No</td><td>GZA,RZA</td></tr>
- <tr><td>38</td><td>Life's a Bitch</td><td>Nasimoto</td><td>3 min, 33 sec</td><td id="yes">Yes</td><td>Nas prod by Quasimoto</td></tr>
- <tr><td>39</td><td>New York State of Mind</td><td>Illmatic</td><td>4 min, 56 sec</td><td id="yes">Yes</td><td>Nas</td></tr>
- <tr><td>40</td><td>Suicidal Thoughts</td><td>Ready to Die</td><td>2 min, 54 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
- <tr><td>41</td><td>The What</td><td>Ready to Die</td><td>4 min, 1 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
- <tr><td>42</td><td>Warning</td><td>Ready to Die</td><td>3 min, 44 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
- <tr><td>43</td><td>C.R.E.A.M.</td><td>Enter the Wu-Tang: 36 Chambers</td><td>4 min, 1 sec</td><td id="yes">Yes</td><td>Wu-Tang Clan</td></tr>
- <tr><td>44</td><td>M.E.T.H.O.D Man</td><td>Enter the Wu-Tang: 36 Chambers</td><td>4 min, 27 sec</td><td id="yes">Yes</td><td>Wu-Tang Clan</td></tr>
- <tr><td>45</td><td>Put it On</td><td>Big L</td><td>3 min, 3 sec</td><td id="yes">Yes</td><td>Big L</td></tr>
+<thead><tr class="tr1" class="tableizer-firstr"><th># Number</th><th>Song</th><th>Album</th><th>Duration</th><th>Radio Edit?</th><th>Artists</th></tr></thead><tbody>
+ <tr class="tr1"><td>1</td><td>Rumpelstilskin Brown</td><td></td><td>5 min, 5 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
+ <tr class="tr2"><td>2</td><td>That's That</td><td>Born Like This</td><td>2 min, 8 sec</td><td id="yes">Yes</td><td>Quasimoto</td></tr>
+ <tr class="tr3"><td>3</td><td>Catchin the Vibe</td><td></td><td>3 min, 43 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr4"><td>4</td><td>Great Day</td><td>Madvilliany</td><td>2 min, 17 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
+ <tr class="tr5"><td>5</td><td>Planned Attack</td><td></td><td>2 min, 50 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr6"><td>6</td><td>Somersault (MF DOOM remix)</td><td></td><td>3 min, 36 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr7"><td>7</td><td>Raid</td><td>Madvilliany</td><td>2 min, 31 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr8"><td>8</td><td>Bad Character</td><td>The Unseen</td><td>1 min, 56 sec</td><td id="yes">Yes</td><td>Quasimoto</td></tr>
+ <tr class="tr9"><td>9</td><td>All Caps</td><td>Madvilliany</td><td>2 min, 56 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
+ <tr class="tr10"><td>10</td><td>It Aint Hard to Tell (danger mouse remix)</td><td>Illmatic</td><td>3 min, 14 sec</td><td id="no">No</td><td>Nas</td></tr>
+ <tr class="tr11"><td>11</td><td>Come on Feet</td><td>The Unseen</td><td>2 min, 50 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr12"><td>12</td><td>Sofa King</td><td>The Mouse and the Mask</td><td>2 min, 50 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr13"><td>13</td><td>Closer</td><td>The Further Adventures of Lord Quas</td><td>2 min, 11 sec</td><td id="yes">Yes</td><td>Quasimoto</td></tr>
+ <tr class="tr14"><td>14</td><td>93 Til Infinity</td><td>93 Til Infinity</td><td>3 min, 35 sec</td><td id="no">No</td><td>93 Til Infinity</td></tr>
+ <tr class="tr15"><td>15</td><td>The Choice is Yours</td><td>A Wolf in Sheep's Clothing</td><td>3 min, 52 sec</td><td id="no">No</td><td>Native Tounges</td></tr>
+ <tr class="tr16"><td>16</td><td>Sniper Elite</td><td>Sniperlite</td><td>1 min, 59 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr17"><td>17</td><td>One Beer</td><td>Mm... food</td><td>2 min, 45 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr18"><td>18</td><td>Rappcats</td><td>The Further Adventures of Lord Quas</td><td>2 min, 2 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
+ <tr class="tr19"><td>19</td><td>Monkey Suite</td><td>Chrome Children</td><td>2 min, 38 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
+ <tr class="tr20"><td>20</td><td>Microphone Mathematics</td><td>The Unseen</td><td>3 min, 17 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
+ <tr class="tr21"><td>21</td><td>8 Million Stories</td><td>Midnight Marauders</td><td>4 min, 22 sec</td><td id="yes">Yes</td><td>Native Tounges</td></tr>
+ <tr class="tr22"><td>22</td><td>Discipline 99 pt 1</td><td>The Unseen</td><td>3 min, 31 sec</td><td id="no">No</td><td>Quasimoto</td></tr>
+ <tr class="tr23"><td>23</td><td>Hoe Cakes</td><td>Mm... food</td><td>3 min, 36 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
+ <tr class="tr24"><td>24</td><td>Fancy Clown</td><td>Madvilliany</td><td>1 min, 56 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
+ <tr class="tr25"><td>25</td><td>Str class="tr1"ange Ways</td><td>Madvilliany</td><td>1 min, 55 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr26"><td>26</td><td>Kookies</td><td>Mm... food</td><td>4 min, 2 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
+ <tr class="tr27"><td>27</td><td>Sorcerers</td><td>Unexpected Guests</td><td>3 min, 4 sec</td><td id="yes">Yes</td><td>MF Doom</td></tr>
+ <tr class="tr28"><td>28</td><td>Figaro</td><td>Madvilliany</td><td>2 min, 27 sec</td><td id="no">No</td><td>MF Doom</td></tr>
+ <tr class="tr29"><td>29</td><td>Crew</td><td>Beats, Rhymes and Life</td><td>2 min</td><td id="yes">Yes</td><td>Native Tounges</td></tr>
+ <tr class="tr30"><td>30</td><td>Phony Rappers</td><td>Beats, Rhymes and Life</td><td>3 min, 36 sec</td><td id="yes">Yes</td><td>Native Tounges</td></tr>
+ <tr class="tr31"><td>31</td><td>Party & Bullshit</td><td>The Lost Tapes EP</td><td>3 min, 41 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
+ <tr class="tr32"><td>32</td><td>Ten Crack Commandments</td><td>Life After Death</td><td>3 min, 26 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
+ <tr class="tr33"><td>33</td><td>Capital Punishment</td><td>Capital Punishment</td><td>4 min, 22 sec</td><td id="yes">Yes</td><td>Big Pun</td></tr>
+ <tr class="tr34"><td>34</td><td>My Turn</td><td>Yeeeah Baby</td><td>3 min, 49 sec</td><td id="no">No</td><td>Big Pun</td></tr>
+ <tr class="tr35"><td>35</td><td>Twinz (Deep Cover '98)</td><td>Capital Punishment</td><td>3 min, 49 sec</td><td id="yes">Yes</td><td>Big Pun</td></tr>
+ <tr class="tr36"><td>36</td><td>Gimme the Loot (Original)</td><td>Ready to Die</td><td>5 min, 8 sec</td><td id="yes">Yes</td><td>Big Pun</td></tr>
+ <tr class="tr37"><td>37</td><td>Liquid Swords</td><td>Liquid Swords</td><td>4 min, 31 sec</td><td id="no">No</td><td>GZA,RZA</td></tr>
+ <tr class="tr38"><td>38</td><td>Life's a Bitch</td><td>Nasimoto</td><td>3 min, 33 sec</td><td id="yes">Yes</td><td>Nas prod by Quasimoto</td></tr>
+ <tr class="tr39"><td>39</td><td>New York State of Mind</td><td>Illmatic</td><td>4 min, 56 sec</td><td id="yes">Yes</td><td>Nas</td></tr>
+ <tr class="tr40"><td>40</td><td>Suicidal Thoughts</td><td>Ready to Die</td><td>2 min, 54 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
+ <tr class="tr41"><td>41</td><td>The What</td><td>Ready to Die</td><td>4 min, 1 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
+ <tr class="tr42"><td>42</td><td>Warning</td><td>Ready to Die</td><td>3 min, 44 sec</td><td id="yes">Yes</td><td>Biggie</td></tr>
+ <tr class="tr43"><td>43</td><td>C.R.E.A.M.</td><td>Enter the Wu-Tang: 36 Chambers</td><td>4 min, 1 sec</td><td id="yes">Yes</td><td>Wu-Tang Clan</td></tr>
+ <tr class="tr44"><td>44</td><td>M.E.T.H.O.D Man</td><td>Enter the Wu-Tang: 36 Chambers</td><td>4 min, 27 sec</td><td id="yes">Yes</td><td>Wu-Tang Clan</td></tr>
+ <tr class="tr45"><td>45</td><td>Put it On</td><td>Big L</td><td>3 min, 3 sec</td><td id="yes">Yes</td><td>Big L</td></tr>
 </tbody></table>
 </div>
 <div id="chatwing-embedded-a016c4e0-a8d4-11e8-8c4e-9b1b51e68fbe">
+
 <!-- Begin chatwing.com chatbox -->
-<iframe src="https://chatwing.com/chatbox/a016c4e0-a8d4-11e8-8c4e-9b1b51e68fbe" width="300" height="1000" frameborder="0" scrolling="0">Please contact us at info@chatwing.com if you cant embed the chatbox</iframe>
+<iframe src="https://chatwing.com/chatbox/a016c4e0-a8d4-11e8-8c4e-9b1b51e68fbe" width="1335" height="375" frameborder="0" scrolling="0">Please contact us at info@chatwing.com if you cant embed the chatbox</iframe>
 <!-- End chatwing.com chatbox -->
 </div>
 </body>
