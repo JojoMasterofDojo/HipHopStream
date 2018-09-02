@@ -3,6 +3,7 @@ a{
 }
 
 html{
+	font-family: 'Raleway', sans-serif;
 	color: white;
     	animation-name: background_color_change;
    	 animation-duration: 7500ms;
