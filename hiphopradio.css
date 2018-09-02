@@ -1,20 +1,26 @@
 a{
-	color: #e30de3;
+	color: white;
 }
 
 html{
 	color: white;
-	background: #005C97;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation-name: background_color_change;
+    animation-duration: 7500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 /*Animations for individual selections of the radio tracks*/
-@keyframes playlistpulse{
+@keyframes background_color_change{
 	0%{background-color: #005C97}
-	50%{background-color: #e30de3}
+	50%{background-color: #a029a0}
 	100%{background-color: #005C97}
 }
+/*@keyframes background_color_change{
+	0%{background-color:#373b44}
+	50%{background-color: #373B44}
+	100%{background-color:#4286f4}
+}*/
 .titletext{
 	background-color: black;
 	text-align: center;
